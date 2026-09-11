@@ -1,1 +1,21 @@
-IBM_BOB_USAGE.md
+# IBM Bob Technology Usage - GreenWave AI
+
+**Project Name:** GreenWave AI: Intelligent Carbon Document Parser for Supply Chains  
+**Core Tool:** IBM Bob (AI-Powered Development Assistant)
+
+---
+
+## How IBM Bob Was Used in Development
+
+IBM Bob served as our primary AI collaboration partner throughout the lifecycle of building the GreenWave AI proof-of-concept.
+
+### 1. Specification & Data Architecture
+* **Prompt Engineering:** Defined the extraction schema for unstructured PDF invoices and shipping receipts.
+* **Scope Definition:** Defined extraction parameters targeting Scope 3 greenhouse gas (CO2e) emissions from transport metrics (weight, distance).
+
+### 2. Code Generation & Parser Logic
+* **Python Pipeline:** Drafted the core parsing logic (`parser.py`) to process raw invoice text (`invoice.txt`) and output structured JSON data.
+* **Automated Calculations:** Coded calculation rules based on heavy-freight emissions factors (0.105 kg CO2e / ton-km).
+
+---
+*Developed for the IBM Hackathon Submission.*

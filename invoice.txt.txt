@@ -1,1 +1,7 @@
-invoice.txt
+INVOICE #98234
+Vendor: Global Logistics Freight Ltd.
+Date: 2026-09-10
+Shipment Type: Heavy Freight Cargo
+Weight: 12.5 tons
+Distance: 450.0 km
+Status: Delivered
